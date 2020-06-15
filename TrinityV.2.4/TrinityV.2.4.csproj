@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9372C518-B0F9-45AE-A8C9-96B02ACA0191}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TrinityV.2.4</RootNamespace>
+    <AssemblyName>TrinityV.2.4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>TrinityV.2.4.ico</ApplicationIcon>
+    <StartupObject>ns15.Class8</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="dummy_ptr\{074e92cd-88cc-4b51-973f-e105a0f810cf}.cs" />
+    <Compile Include="ns0\GClass0.cs" />
+    <Compile Include="ns100\GClass76.cs" />
+    <Compile Include="ns101\GClass77.cs" />
+    <Compile Include="ns102\GClass78.cs" />
+    <Compile Include="ns103\GClass79.cs" />
+    <Compile Include="ns104\GClass80.cs" />
+    <Compile Include="ns105\GClass81.cs" />
+    <Compile Include="ns106\GClass82.cs" />
+    <Compile Include="ns107\GClass83.cs" />
+    <Compile Include="ns108\GClass84.cs" />
+    <Compile Include="ns109\GClass85.cs" />
+    <Compile Include="ns10\GStruct0.cs" />
+    <Compile Include="ns110\GClass86.cs" />
+    <Compile Include="ns111\GClass87.cs" />
+    <Compile Include="ns112\GClass88.cs" />
+    <Compile Include="ns113\GClass89.cs" />
+    <Compile Include="ns114\GClass90.cs" />
+    <Compile Include="ns115\GClass91.cs" />
+    <Compile Include="ns116\GClass92.cs" />
+    <Compile Include="ns117\GClass93.cs" />
+    <Compile Include="ns118\GClass94.cs" />
+    <Compile Include="ns119\GClass95.cs" />
+    <Compile Include="ns11\GStruct1.cs" />
+    <Compile Include="ns120\GClass96.cs" />
+    <Compile Include="ns121\GClass97.cs" />
+    <Compile Include="ns122\GClass98.cs" />
+    <Compile Include="ns123\GClass99.cs" />
+    <Compile Include="ns124\GClass100.cs" />
+    <Compile Include="ns125\GClass101.cs" />
+    <Compile Include="ns126\GClass102.cs" />
+    <Compile Include="ns127\GClass103.cs" />
+    <Compile Include="ns128\GClass104.cs" />
+    <Compile Include="ns129\GClass105.cs" />
+    <Compile Include="ns12\GStruct2.cs" />
+    <Compile Include="ns130\GClass106.cs" />
+    <Compile Include="ns131\GClass107.cs" />
+    <Compile Include="ns132\GClass108.cs" />
+    <Compile Include="ns133\GClass109.cs" />
+    <Compile Include="ns134\GClass110.cs" />
+    <Compile Include="ns135\GClass111.cs" />
+    <Compile Include="ns136\GClass112.cs" />
+    <Compile Include="ns137\GClass113.cs" />
+    <Compile Include="ns138\GClass114.cs" />
+    <Compile Include="ns139\GClass115.cs" />
+    <Compile Include="ns13\Class7.cs" />
+    <Compile Include="ns140\GClass116.cs" />
+    <Compile Include="ns141\GClass117.cs" />
+    <Compile Include="ns142\GClass118.cs" />
+    <Compile Include="ns143\GClass119.cs" />
+    <Compile Include="ns14\GClass9.cs" />
+    <Compile Include="ns15\Class8.cs" />
+    <Compile Include="ns16\Class9.cs" />
+    <Compile Include="ns17\Class11.cs" />
+    <Compile Include="ns18\Class12.cs" />
+    <Compile Include="ns19\Class13.cs" />
+    <Compile Include="ns1\GClass1.cs" />
+    <Compile Include="ns20\GClass10.cs" />
+    <Compile Include="ns21\GEnum1.cs" />
+    <Compile Include="ns22\GClass11.cs" />
+    <Compile Include="ns23\GClass12.cs" />
+    <Compile Include="ns24\GClass13.cs" />
+    <Compile Include="ns25\GClass14.cs" />
+    <Compile Include="ns26\GClass15.cs" />
+    <Compile Include="ns27\GClass16.cs" />
+    <Compile Include="ns28\GClass17.cs" />
+    <Compile Include="ns29\Class15.cs" />
+    <Compile Include="ns2\GEnum0.cs" />
+    <Compile Include="ns30\Class16.cs" />
+    <Compile Include="ns31\Class17.cs" />
+    <Compile Include="ns32\Class18.cs" />
+    <Compile Include="ns33\Class19.cs" />
+    <Compile Include="ns34\Class20.cs" />
+    <Compile Include="ns35\Class21.cs" />
+    <Compile Include="ns36\Class22.cs" />
+    <Compile Include="ns37\Class23.cs" />
+    <Compile Include="ns38\Class25.cs" />
+    <Compile Include="ns39\Class26.cs" />
+    <Compile Include="ns3\GClass2.cs" />
+    <Compile Include="ns40\Class27.cs" />
+    <Compile Include="ns41\Class28.cs" />
+    <Compile Include="ns42\GClass18.cs" />
+    <Compile Include="ns43\GClass19.cs" />
+    <Compile Include="ns44\GClass20.cs" />
+    <Compile Include="ns45\GClass21.cs" />
+    <Compile Include="ns46\GClass22.cs" />
+    <Compile Include="ns47\GClass23.cs" />
+    <Compile Include="ns48\GClass24.cs" />
+    <Compile Include="ns49\GClass25.cs" />
+    <Compile Include="ns4\GClass3.cs" />
+    <Compile Include="ns50\GClass26.cs" />
+    <Compile Include="ns51\GClass27.cs" />
+    <Compile Include="ns52\GClass28.cs" />
+    <Compile Include="ns53\GClass29.cs" />
+    <Compile Include="ns54\GClass30.cs" />
+    <Compile Include="ns55\GClass31.cs" />
+    <Compile Include="ns56\GClass32.cs" />
+    <Compile Include="ns57\GClass33.cs" />
+    <Compile Include="ns58\GClass34.cs" />
+    <Compile Include="ns59\GClass35.cs" />
+    <Compile Include="ns5\GClass4.cs" />
+    <Compile Include="ns60\GClass36.cs" />
+    <Compile Include="ns61\GClass37.cs" />
+    <Compile Include="ns62\GClass38.cs" />
+    <Compile Include="ns63\GClass39.cs" />
+    <Compile Include="ns64\GClass40.cs" />
+    <Compile Include="ns65\GClass41.cs" />
+    <Compile Include="ns66\GClass42.cs" />
+    <Compile Include="ns67\GClass43.cs" />
+    <Compile Include="ns68\GClass44.cs" />
+    <Compile Include="ns69\GClass45.cs" />
+    <Compile Include="ns6\GClass5.cs" />
+    <Compile Include="ns70\GClass46.cs" />
+    <Compile Include="ns71\GClass47.cs" />
+    <Compile Include="ns72\GClass48.cs" />
+    <Compile Include="ns73\GClass49.cs" />
+    <Compile Include="ns74\GClass50.cs" />
+    <Compile Include="ns75\GClass51.cs" />
+    <Compile Include="ns76\GClass52.cs" />
+    <Compile Include="ns77\GClass53.cs" />
+    <Compile Include="ns78\GClass54.cs" />
+    <Compile Include="ns79\GClass55.cs" />
+    <Compile Include="ns7\GClass6.cs" />
+    <Compile Include="ns80\GClass56.cs" />
+    <Compile Include="ns81\GClass57.cs" />
+    <Compile Include="ns82\GClass58.cs" />
+    <Compile Include="ns83\GClass59.cs" />
+    <Compile Include="ns84\GClass60.cs" />
+    <Compile Include="ns85\GClass61.cs" />
+    <Compile Include="ns86\GClass62.cs" />
+    <Compile Include="ns87\GClass63.cs" />
+    <Compile Include="ns88\GClass64.cs" />
+    <Compile Include="ns89\GClass65.cs" />
+    <Compile Include="ns8\GClass7.cs" />
+    <Compile Include="ns90\GClass66.cs" />
+    <Compile Include="ns91\GClass67.cs" />
+    <Compile Include="ns92\GClass68.cs" />
+    <Compile Include="ns93\GClass69.cs" />
+    <Compile Include="ns94\GClass70.cs" />
+    <Compile Include="ns95\GClass71.cs" />
+    <Compile Include="ns96\GClass72.cs" />
+    <Compile Include="ns97\GClass73.cs" />
+    <Compile Include="ns98\GClass74.cs" />
+    <Compile Include="ns99\GClass75.cs" />
+    <Compile Include="ns9\GClass8.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
